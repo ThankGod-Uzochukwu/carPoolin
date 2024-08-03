@@ -1,25 +1,24 @@
 import React from "react";
-import Press from "./Press";
-import { View } from "react-native";
+import { View, TouchableOpacity } from "react-native";
 import { router } from "expo-router";
 
-const Back = ({children}) => {
+const Back = ({ children }) => {
   return (
     <View>
-      <Press
+      <TouchableOpacity
         onPress={() => router.back()}
         style={{
           // backgroundColor: '#F6F6F6',
-          width: 32,
-          height: 32,
-          alignItems: "center",
-          justifyContent: "center",
-          borderRadius: 100,
-          marginTop: 24,
+          // width: 32,
+          // height: 32,
+          // alignItems: "center",
+          // justifyContent: "center",
+          // borderRadius: 100,
+          // marginTop: 24,
         }}
       >
         {children}
-      </Press>
+      </TouchableOpacity>
     </View>
   );
 };
