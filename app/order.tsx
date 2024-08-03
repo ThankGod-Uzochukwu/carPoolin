@@ -41,7 +41,7 @@ const Order = () => {
               </View>
               <View style={{ marginTop: 45, }}>
                 <View style={{ flexDirection: 'row', gap: 20, alignItems: 'center', }}>
-                  <Text style={{ fontSize: 28, color: '#FFF', fontWeight: '600', lineHeight: 29 }}>16:40</Text>
+                  <Text style={{ fontSize: 28, color: '#FFF', fontWeight: '600', lineHeight: 29 }}>17:20</Text>
                   <Text style={{ fontSize: 18, color: '#E6E7EA', fontWeight: '500' }}>Ghent</Text>
                 </View>
                 <Text style={{ fontSize: 18, color: '#E6E7EA', fontWeight: '500', marginTop: 5 }}>Drop off at Ghent-Sinf-</Text>
