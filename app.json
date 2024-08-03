@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/car1.gif",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thankgod_uzochukwu.carPoolin"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f6b653c2-c8f7-4a8f-bfd3-55b7892b69d1"
+      }
     }
   }
 }
