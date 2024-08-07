@@ -18,7 +18,7 @@ const Search = () => {
         <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
             <ScrollView showsVerticalScrollIndicator={false} style={{}}>
                 <View style={{ backgroundColor: '#7AA6FB', height: 320, borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
-                    <View style={{ marginHorizontal: 15, marginTop: 40 }}>
+                    <View style={{ marginHorizontal: 15, marginTop: 50 }}>
                         <Text style={{ fontSize: 24, color: '#fff', fontWeight: '600' }}>Where are{"\n"}you going?</Text>
                     </View>
 
