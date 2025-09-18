@@ -13,7 +13,7 @@ const Order = () => {
     <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
       <ScrollView showsVerticalScrollIndicator={false} style={{}}>
         <View style={{ backgroundColor: '#7AA6FB', height: 300, borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginHorizontal: 15, marginTop: 30 }}>
+          <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginHorizontal: 15, marginTop: 50 }}>
             <Back>
               <AntDesign name="left" size={24} color="white" />
             </Back>
